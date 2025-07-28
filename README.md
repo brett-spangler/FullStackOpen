@@ -29,26 +29,25 @@ Each part of the course has its own folder:
 Part0/ Part1/ Part2/ ...
 Each folder includes relevant exercises, project code, and notes.
 
-## 💡 Current Focus
+## ✔️ Progress Tracker
 
 Working through:
 
-- [ ] React fundamentals and component design
-- [ ] Forms and state management
-- [ ] Building APIs with Express
-- [ ] MongoDB integration
-- [ ] CI/CD with GitHub Actions
+- ✅ Part 0 - Fundamentals of Web apps
+- ⬜️ Part 1 - Introduction to React
+- ⬜️ Part 2 - Communicating with server
+- ⬜️ Part 3 - Programming a server with NodeJS and Express
+- ⬜️ Part 4 - Testing Express servers, user administration
+- ⬜️ Part 5 - Testing React Apps
+- ⬜️ Part 6 - Advanced State Management
+- ⬜️ Part 7 - React router, custom hooks, styling app with CSS and webpack
+- ⬜️ Part 8 - GraphQL
+- ⬜️ Part 9 - TypeScript
+- ⬜️ Part 10 - React Native
+- ⬜️ Part 11 - CI/CD
+- ⬜️ Part 12 - Containers
+- ⬜️ Part 13 - Using relational databases
 
 ## ✍️ Author
 
 **Brett Spangler**  
-<!-- Data Integration Engineer | Full-stack student  
-Focused on bringing SQL expertise and automation into scalable web applications.
-
-## 📬 Contact
-
-You can reach me on [LinkedIn](https://www.linkedin.com/in/your-profile) or check out more projects on [GitHub](https://github.com/your-username). -->
-
----
-
-⚡ _Work in progress. Updated regularly as I tackle each section._
