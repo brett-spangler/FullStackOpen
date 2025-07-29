@@ -14,15 +14,27 @@ const App = () => {
         name: 'State of a component',
         exercises: 14
       }
-    ]
+    ],
+    // define function to output Parts components
+    outputParts: function() {
+      return this.parts.map(part => <Part key={part.name} part={part} />)
+    },
+    //define function to calculate total exercises without using reduce
+    totalExercises: function() {
+      let total = 0;
+      this.parts.forEach(part => {
+        total += part.exercises;
+      });
+      return total;
+    }
   }
 
 
   return (
     <div>
       <Header course={course} />
-      <Content parts={course.parts} />
-      <Footer parts={course.parts} />
+      <Content course={course} />
+      <Footer course={course} />
     </div>
   )
 }
@@ -42,14 +54,12 @@ const Part = (props) => {
 const Content = (props) => {
   return (
     <div>
-      <Part part={props.parts[0]} />
-      <Part part={props.parts[1]} />
-      <Part part={props.parts[2]} />
+      {props.course.outputParts()}
     </div>
   )
 }
 
 const Footer = (props) => {
-  return <p>Number of exercises {props.parts[0].exercises + props.parts[1].exercises + props.parts[2].exercises}</p>
+  return <p>Number of exercises {props.course.totalExercises()}</p>
 }
 export default App
