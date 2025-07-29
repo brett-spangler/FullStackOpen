@@ -17,13 +17,13 @@ const App = () => {
     ],
     // define function to output Parts components
     outputParts: function() {
-      return this.parts.map(part => <Part key={part.name} part={part} />)
+      return this.parts.map(({name, exercises}) => <Part key={name} name={name} exercises={exercises} />)
     },
     //define function to calculate total exercises without using reduce
     totalExercises: function() {
       let total = 0;
-      this.parts.forEach(part => {
-        total += part.exercises;
+      this.parts.forEach(({exercises}) => {
+        total += exercises;
       });
       return total;
     }
@@ -43,23 +43,23 @@ const Header = (props) => {
   return <h1>{props.course.name}</h1>
 }
 
-const Part = (props) => {
+const Part = ({name, exercises}) => {
   return (
     <p>
-      {props.part.name} {props.part.exercises}
+      {name} {exercises}
     </p>
   )
 }
 
-const Content = (props) => {
+const Content = ({course}) => {
   return (
     <div>
-      {props.course.outputParts()}
+      {course.outputParts()}
     </div>
   )
 }
 
-const Footer = (props) => {
-  return <p>Number of exercises {props.course.totalExercises()}</p>
+const Footer = ({course}) => {
+  return <p>Number of exercises {course.totalExercises()}</p>
 }
 export default App
