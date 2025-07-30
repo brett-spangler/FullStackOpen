@@ -11,7 +11,11 @@ I'm using this space to:
 - Reinforce data handling skills with RESTful APIs and MongoDB
 - Solidify my command of testing, CI/CD pipelines, and containerization
 
-This is a hands-on complement to my data engineering background, enhancing my ability to deliver scalable and robust solutions.
+## 📌 Background & Motivation
+
+As a Data Integration Engineer, I’ve spent over a decade designing and building dynamic frontends using Ignition's Perspective module. My experience includes data-driven UI composition, scripting for interactive visualizations, and creating responsive dashboards across MES/SCADA environments.
+
+While Perspective is tailored for industrial automation, it shares key principles with modern frontend frameworks—component-based architecture, reactive data flows, and user-centric design. This repository reflects my transition into React and broader web technologies to apply those principles in scalable and user-facing web applications.
 
 ## 🛠️ Tech Stack
 
