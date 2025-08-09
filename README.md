@@ -13,9 +13,11 @@ I'm using this space to:
 
 ## 📌 Background & Motivation
 
-As a Data Integration Engineer, I’ve spent over a decade designing and building dynamic frontends using Ignition's Perspective module. My experience includes data-driven UI composition, scripting for interactive visualizations, and creating responsive dashboards across MES/SCADA environments.
+As a Senior Data Integration Engineer, I’ve spent over a decade designing and building dynamic frontends using Ignition's Perspective module. My work has spanned MES/SCADA environments, where I was often the go-to engineer for tackling new challenges—especially when existing tools couldn’t meet the need.
 
-While Perspective is tailored for industrial automation, it shares key principles with modern frontend frameworks—component-based architecture, reactive data flows, and user-centric design. This repository reflects my transition into React and broader web technologies to apply those principles in scalable and user-facing web applications.
+That adaptability is one of my greatest strengths. Whether it was building custom solutions outside Ignition’s capabilities or diving into new tech stacks, I’ve always thrived in roles that let me learn on the job and deliver fast, reliable results.
+
+This repo reflects my continued growth into full-stack development. I began this course after a recruiter reached out about a Full Stack Software Engineer role, and while I wasn’t selected, the experience clarified how much I enjoy building across the stack—and how much value I can bring to teams looking for versatile engineers who learn fast and execute well.
 
 ## 🛠️ Tech Stack
 
@@ -30,7 +32,7 @@ The exercises will touch on:
 ## 📁 Structure
 
 Each part of the course has its own folder:
-Part0/ Part1/ Part2/ ...
+`Part0/` `Part1/` `Part2/` ...
 Each folder includes relevant exercises, project code, and notes.
 
 ## ✔️ Progress Tracker
@@ -38,8 +40,8 @@ Each folder includes relevant exercises, project code, and notes.
 Working through:
 
 - ✅ Part 0 - Fundamentals of Web apps
-- ⬜️ Part 1 - Introduction to React
-- ⬜️ Part 2 - Communicating with server
+- ✅ Part 1 - Introduction to React
+- ✅ Part 2 - Communicating with server
 - ⬜️ Part 3 - Programming a server with NodeJS and Express
 - ⬜️ Part 4 - Testing Express servers, user administration
 - ⬜️ Part 5 - Testing React Apps
@@ -52,6 +54,10 @@ Working through:
 - ⬜️ Part 12 - Containers
 - ⬜️ Part 13 - Using relational databases
 
+## 🧭 Career Alignment
+
+While my current focus is on backend and cloud-native data engineering, I remain open and excited about full-stack opportunities—especially those that value fast learners and cross-functional problem solvers. This repo is part of that journey.
+
 ## ✍️ Author
 
-**Brett Spangler**  
+**Brett Spangler**
